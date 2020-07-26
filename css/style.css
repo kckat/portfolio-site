@@ -1,0 +1,50 @@
+
+
+body {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;  
+}
+
+a{
+    text-decoration: none;
+}
+
+.header {
+    text-align: center;
+}
+
+#about-wrap {
+    margin-top: 30px;
+}
+
+.top {
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+
+.circle{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    transition: ease-in-out 500ms;
+}
+
+.circle:hover {
+    transform: scale(1.5);
+}
+
+@media (min-width: 700px) {
+    circle{
+        margin: 5px;
+    }
+}
