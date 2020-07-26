@@ -26,14 +26,23 @@ a{
     justify-content: center;
 }
 
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+}
+
 
 .circle{
     margin: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 200px;
+	width: 200px;
+	height: 200px;
     border-radius: 50%;
     background-color: antiquewhite;
     transition: ease-in-out 500ms;
@@ -42,6 +51,12 @@ a{
 .circle:hover {
     transform: scale(1.5);
 }
+
+.project-wrap {
+    align-self: center;
+    text-align: left;
+}
+
 
 @media (min-width: 700px) {
     circle{
