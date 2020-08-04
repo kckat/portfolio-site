@@ -26,14 +26,23 @@ a{
     justify-content: center;
 }
 
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+}
+
 
 .circle{
     margin: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px;
-    height: 200px;
+	width: 200px;
+	height: 200px;
     border-radius: 50%;
     background-color: antiquewhite;
     transition: ease-in-out 500ms;
