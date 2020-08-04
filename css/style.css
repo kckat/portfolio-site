@@ -43,6 +43,28 @@ a{
     transform: scale(1.5);
 }
 
+.social-links-icon{
+    height: 2.2em;
+    width: auto;
+    margin: 10px;
+}
+
+.spotify{
+    fill: rgb(138, 224, 138);
+}
+
+.you-tube{
+    fill: rgb(218, 49, 49);
+}
+
+.instagram{
+    fill: rgb(198, 49, 218);
+}
+
+.twitter{
+    fill: rgb(49, 170, 218);
+}
+
 @media (min-width: 700px) {
     circle{
         margin: 5px;
